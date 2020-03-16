@@ -128,8 +128,10 @@ class TicTacToe
   def play 
     puts "Welcome, please make a move (1-9)"
     input = gets.chomp
-    if 
-    input = gets.chomp
+    
+    
+    unitl won? || over?
+      
     input_to_index(input)
     move(board_index, token = "X")
     turn 
