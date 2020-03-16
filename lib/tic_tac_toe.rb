@@ -113,7 +113,7 @@ class TicTacToe
     if !@board.include?(" ")
       return true 
     else 
-      self.won?
+      won?
     end
   end
     
