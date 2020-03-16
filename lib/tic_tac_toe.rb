@@ -129,7 +129,7 @@ class TicTacToe
     puts "Welcome, please make a move (1-9)."
     input = gets.chomp
     
-    # unitl won? || over? do 
+    # until won? || over? do 
     #   input_to_index(input)
     #   move(board_index, token = "X")
     #   turn 
