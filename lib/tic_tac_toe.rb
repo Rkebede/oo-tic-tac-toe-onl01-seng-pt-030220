@@ -135,12 +135,12 @@ class TicTacToe
       puts "Cat's Game!"
     end
     
-    if winner == "X"
-      puts "Congratulations Player X. You have won!"
-    else 
-      puts "Congratulations Player O. You have won!"
-    end
-  end
+  #   if winner == "X"
+  #     puts "Congratulations Player X. You have won!"
+  #   else 
+  #     puts "Congratulations Player O. You have won!"
+  #   end
+  # end
 
 
 end
