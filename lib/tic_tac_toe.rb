@@ -124,6 +124,10 @@ class TicTacToe
       return current_player == "O" ? "X" : "O"
     end
   end
+  
+  def play 
+    
+  end
 
 
 end
