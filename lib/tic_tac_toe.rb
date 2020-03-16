@@ -89,6 +89,7 @@ class TicTacToe
       elsif character == "O"
         o_arr << index
       end
+    end
     
     WIN_COMBINATIONS.each do |combination|
       combination.include?(x_arr)
