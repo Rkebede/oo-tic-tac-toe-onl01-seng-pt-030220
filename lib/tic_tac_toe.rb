@@ -126,11 +126,8 @@ class TicTacToe
   end
   
   def play 
-    turn
     
     until won? || over? do
-      input_to_index(input)
-      move(board_index, token = "X")
       turn 
     end 
     
