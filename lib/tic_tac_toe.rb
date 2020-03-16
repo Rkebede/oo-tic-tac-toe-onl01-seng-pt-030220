@@ -140,7 +140,7 @@ class TicTacToe
   #   else 
   #     puts "Congratulations Player O. You have won!"
   #   end
-  # end
+  end
 
 
 end
