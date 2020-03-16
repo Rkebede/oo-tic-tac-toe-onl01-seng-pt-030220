@@ -126,26 +126,26 @@ class TicTacToe
   end
   
   def play 
-    puts "Welcome, please make a move (1-9)"
+    puts "Welcome, please make a move (1-9)."
     input = gets.chomp
     
-    unitl won? || over? do 
-      input_to_index(input)
-      move(board_index, token = "X")
-      turn 
-    end 
+    # unitl won? || over? do 
+    #   input_to_index(input)
+    #   move(board_index, token = "X")
+    #   turn 
+    # end 
     
-    if draw
-      puts "Cat's Game!"
-    end
+    # if draw
+    #   puts "Cat's Game!"
+    # end
     
-    if winner
-      if winner == "X"
-        puts "Congratulations Player X. You have won!"
-      else 
-        puts "Congratulations Player O. You have won!"
-      end
-    end
+    # if winner
+    #   if winner == "X"
+    #     puts "Congratulations Player X. You have won!"
+    #   else 
+    #     puts "Congratulations Player O. You have won!"
+    #   end
+    # end
   end
 
 
