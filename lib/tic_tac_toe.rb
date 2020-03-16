@@ -77,11 +77,6 @@ class TicTacToe
   def won?
     x_arr = []
     o_arr = []
-    draw = !@board.include?(" ")
- 
-    # if draw
-    #   return false
-    # end
     
     @board.each_with_index do |character, index|
       if character == "X"
@@ -97,6 +92,11 @@ class TicTacToe
       combination.include?(o_arr)
         return o_arr
       end
+    end
+    
+    draw = !@board.include?(" ")   
+    if draw
+      return false
     end
     
 end
