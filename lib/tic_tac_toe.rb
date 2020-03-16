@@ -114,7 +114,7 @@ class TicTacToe
       return true 
     elsif @board.include?(" ")
       return false
-    else won
+    else won?
       return false
     end
   end
