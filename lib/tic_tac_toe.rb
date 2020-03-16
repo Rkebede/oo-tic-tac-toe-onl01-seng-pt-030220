@@ -126,7 +126,6 @@ class TicTacToe
   end
   
   def play 
-    
     until won? || over? do
       turn 
     end 
@@ -141,7 +140,6 @@ class TicTacToe
       puts "Congratulations O!"
     end
   end
-
 
 end
 
