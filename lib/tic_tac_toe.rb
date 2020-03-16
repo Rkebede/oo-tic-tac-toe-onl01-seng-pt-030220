@@ -110,11 +110,7 @@ class TicTacToe
   end 
     
   def draw? 
-    if !@board.include?(" ")
-      return true 
-    else 
-      return false
-    end
+    self.won?
   end
     
 end
