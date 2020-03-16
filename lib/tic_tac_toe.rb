@@ -134,9 +134,11 @@ class TicTacToe
       move(board_index, token = "X")
       turn 
     end 
+    
     if draw
       puts "Cat's Game!"
-    end 
+    end
+    
     if winner
       if winner == "X"
         puts "Congratulations Player X. You have won!"
