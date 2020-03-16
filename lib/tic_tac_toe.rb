@@ -100,6 +100,12 @@ class TicTacToe
       return false
     end
   end
+  
+  def full
+    if @board != " "
+      return true
+    end 
+  end 
     
 end
 
