@@ -127,7 +127,7 @@ class TicTacToe
   
   def play 
     puts "Welcome, please make a move (1-9)"
-    input = gets.chomp
+    move_made = gets.chomp
     
     
     unitl won? || over? do 
