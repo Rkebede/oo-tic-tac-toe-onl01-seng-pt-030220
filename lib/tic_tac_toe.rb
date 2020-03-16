@@ -117,9 +117,13 @@ class TicTacToe
     if full? || draw?
       return true
     end
-  end 
+  end
+  
+  def winner
+    if won? == "X"
+      return 
     
-    
+  end
 
 
 end
