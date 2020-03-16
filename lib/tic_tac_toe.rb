@@ -92,6 +92,8 @@ class TicTacToe
         return x_arr & combination
       elsif (o_arr & combination).length == 3
         return o_arr & combination
+      else
+        return false
       end
     end
     
@@ -110,11 +112,9 @@ class TicTacToe
   end 
     
   def draw? 
-    if !@board.include?(" ")
+    if !@board.include?(" ") && won? == false
       return true 
     elsif @board.include?(" ")
-      return false
-    else won?
       return false
     end
   end
