@@ -96,11 +96,6 @@ class TicTacToe
         return false
       end
     end
-    
-    draw = !@board.include?(" ")   
-    if draw
-      return false
-    end
   end
   
   def full?
