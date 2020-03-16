@@ -88,9 +88,9 @@ class TicTacToe
     
     WIN_COMBINATIONS.each do |combination|
       
-      if x_arry.include?(combination[])
+      if (x_arry & combination).length == 3
         return x_arr
-      elsif o_arr
+      elsif (o_arry & combination).length == 3
         return o_arr
       end
     end
