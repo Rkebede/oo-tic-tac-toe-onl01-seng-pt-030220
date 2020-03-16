@@ -109,6 +109,10 @@ class TicTacToe
     end 
   end 
     
+  def draw 
+    !@board.include?(" ")   
+  end
+    
 end
 
 
