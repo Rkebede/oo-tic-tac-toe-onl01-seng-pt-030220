@@ -131,17 +131,15 @@ class TicTacToe
       turn 
     end 
     
-    # if draw
-    #   puts "Cat's Game!"
-    # end
+    if draw
+      puts "Cat's Game!"
+    end
     
-    # if winner
-    #   if winner == "X"
-    #     puts "Congratulations Player X. You have won!"
-    #   else 
-    #     puts "Congratulations Player O. You have won!"
-    #   end
-    # end
+    if winner == "X"
+      puts "Congratulations Player X. You have won!"
+    else 
+      puts "Congratulations Player O. You have won!"
+    end
   end
 
 
