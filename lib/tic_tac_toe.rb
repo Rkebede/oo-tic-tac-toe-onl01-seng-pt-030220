@@ -130,7 +130,7 @@ class TicTacToe
     input = gets.chomp
     
     
-    unitl won? || over?
+    unitl won? || over? do 
       input_to_index(input)
       move(board_index, token = "X")
       turn 
