@@ -136,9 +136,9 @@ class TicTacToe
     end
     
     if winner == "X"
-      puts "Congratulations Player X. You have won!"
+      puts "Congratulations X!"
     else 
-      puts "Congratulations Player O. You have won!"
+      puts "Congratulations O!"
     end
   end
 
