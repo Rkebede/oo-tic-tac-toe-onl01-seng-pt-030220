@@ -87,9 +87,9 @@ class TicTacToe
     end
     
     WIN_COMBINATIONS.each do |combination|
-      if combination.include?(x_arr)
+      if combination <=> x_arr
         return x_arr
-      elsif combination.include?(o_arr)
+      elsif combination <=> o_arr
         return o_arr
       end
     end
