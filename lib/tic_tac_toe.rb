@@ -131,12 +131,10 @@ class TicTacToe
     
     
     unitl won? || over?
-      
-    input_to_index(input)
-    move(board_index, token = "X")
-    turn 
-    move
-    won?
+      input_to_index(input)
+      move(board_index, token = "X")
+      turn 
+    end 
     if draw
       puts "Cat's Game!"
     end 
