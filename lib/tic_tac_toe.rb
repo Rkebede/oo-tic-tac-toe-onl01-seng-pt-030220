@@ -126,7 +126,7 @@ class TicTacToe
   end
   
   def play 
-    
+    input.gets
   end
 
 
