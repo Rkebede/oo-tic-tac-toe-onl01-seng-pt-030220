@@ -104,7 +104,7 @@ class TicTacToe
   def full?
     if @board != " "
       return true
-    else 
+    elsif @board == nil 
       return false
     end 
   end 
