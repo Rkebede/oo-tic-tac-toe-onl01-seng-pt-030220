@@ -129,11 +129,11 @@ class TicTacToe
     puts "Welcome, please make a move (1-9)."
     input = gets.chomp
     
-    # until won? || over? do 
-    #   input_to_index(input)
-    #   move(board_index, token = "X")
-    #   turn 
-    # end 
+    until won? || over? do 
+      input_to_index(input)
+      move(board_index, token = "X")
+      turn 
+    end 
     
     # if draw
     #   puts "Cat's Game!"
