@@ -131,7 +131,7 @@ class TicTacToe
       turn 
     end 
     
-    if draw
+    if draw?
       puts "Cat's Game!"
     end
     
