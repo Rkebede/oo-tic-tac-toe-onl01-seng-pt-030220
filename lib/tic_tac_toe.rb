@@ -79,9 +79,9 @@ class TicTacToe
     o_arr = []
     draw = !@board.include?(" ")
  
-    if draw
-      return false
-    end
+    # if draw
+    #   return false
+    # end
     
     @board.each_with_index do |character, index|
       if character == "X"
@@ -98,4 +98,7 @@ class TicTacToe
         return o_arr
       end
     end
+    
 end
+
+
