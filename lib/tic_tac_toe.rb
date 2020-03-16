@@ -126,7 +126,24 @@ class TicTacToe
   end
   
   def play 
+    puts "Welcome, please make a move (1-9)"
+    display_board
     input.gets
+    input_to_index(input)
+    move
+    turn 
+    move
+    won?
+    if draw
+      puts "Cat's Game!"
+    end 
+    if winner
+      if winner == "X"
+        puts "Congratulations Player X. You have won!"
+      else 
+        puts "Congratulations Player O. You have won!"
+      end
+    end
   end
 
 
