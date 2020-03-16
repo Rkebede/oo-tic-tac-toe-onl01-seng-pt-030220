@@ -92,10 +92,9 @@ class TicTacToe
         return x_arr & combination
       elsif (o_arr & combination).length == 3
         return o_arr & combination
-      else
-        return false
       end
     end
+    return false
   end
   
   def full?
