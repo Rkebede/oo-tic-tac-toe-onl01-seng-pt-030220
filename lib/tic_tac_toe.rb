@@ -128,7 +128,7 @@ class TicTacToe
   def play 
     puts "Welcome, please make a move (1-9)"
     display_board
-    input.gets
+    .gets
     input_to_index(input)
     move
     turn 
