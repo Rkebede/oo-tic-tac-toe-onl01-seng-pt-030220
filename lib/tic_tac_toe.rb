@@ -95,10 +95,10 @@ class TicTacToe
       end
     end
     
-    # draw = !@board.include?(" ")   
-    # if draw
-    #   return false
-    # end
+    draw = !@board.include?(" ")   
+    if draw
+      return false
+    end
   end
     
 end
