@@ -98,5 +98,4 @@ class TicTacToe
         return o_arr
       end
     end
-  end
 end
