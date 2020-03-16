@@ -98,6 +98,7 @@ class TicTacToe
     if draw
       return false
     end
+  end
     
 end
 
