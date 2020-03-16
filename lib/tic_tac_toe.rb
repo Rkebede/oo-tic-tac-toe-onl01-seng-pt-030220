@@ -126,8 +126,7 @@ class TicTacToe
   end
   
   def play 
-    puts "Welcome, please make a move (1-9)."
-    input = gets.chomp
+    turn
     
     # until won? || over? do 
     #   input_to_index(input)
